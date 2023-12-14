@@ -12,4 +12,4 @@ export default class Price extends Component {
                 Price:{this.props.blok.title}</div>
         );
     }
-    15.	}
+}
