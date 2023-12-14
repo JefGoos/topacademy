@@ -24,7 +24,7 @@ import ThreeCol from '../components/layoutComponents/ThreeCol/ThreeCol';
 import ImageCarousel from '../components/genericComponents/ImageCarousel/ImageCarousel';
 import Product from '../components/specificComponents/Product/Product';
 import Location from '../components/specificComponents/Location/Location';
-import Price from '../components/specificComponents/Price/Price';
+import Price from '../components/specificComponents/Price/Price'
 
 
 
