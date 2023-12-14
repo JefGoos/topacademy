@@ -46,7 +46,7 @@ const components = {
   threecol: ThreeCol,
   imagecarousel: ImageCarousel,
   product: Product,
-  location: Location
+  location: Location,
   price: Price
 };
 
