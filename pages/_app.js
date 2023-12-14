@@ -6,7 +6,6 @@ import { useEffect } from 'react'
 import { useRouter } from 'next/router'
 
 
-import Person from "../components/specificComponents/Person/Person";
 import Teacher from "../components/specificComponents/Teacher/Teacher";
 import Experience from '../components/specificComponents/Experience/Experience';
 import Hero from '../components/genericComponents/Hero/Hero';
@@ -25,6 +24,8 @@ import ThreeCol from '../components/layoutComponents/ThreeCol/ThreeCol';
 import ImageCarousel from '../components/genericComponents/ImageCarousel/ImageCarousel';
 import Product from '../components/specificComponents/Product/Product';
 import Location from '../components/specificComponents/Location/Location';
+import Price from '../components/specificComponents/Price/Price';
+
 
 
 const components = {
@@ -46,6 +47,7 @@ const components = {
   imagecarousel: ImageCarousel,
   product: Product,
   location: Location
+  prices: Price
 };
 
 storyblokInit({
