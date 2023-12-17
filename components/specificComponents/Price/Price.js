@@ -9,7 +9,7 @@ export default class Price extends Component {
     render() {
         return (
             <div>
-                Price:{this.props.blok.title}</div>
+                Price: {this.props.blok.title}</div>
         );
     }
 }
