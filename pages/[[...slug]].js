@@ -14,6 +14,7 @@ export default function Page({ story, preview, socialtags, menu }) {
       "course.teachers",
       "course.products",
       "course.locations",
+      "course.prices",
       "list.elements",
       "price.colorcode"
     ]
@@ -42,6 +43,7 @@ export async function getStaticProps({ params }) {
       "product.colorcode",
       "course.teachers",
       "course.products",
+      "course.prices",
       "course.locations",
       "list.elements",
       "price.colorcode"
