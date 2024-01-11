@@ -25,12 +25,7 @@ export default class Price extends Component {
 								<h2 className={css["rich-text-section__title"]}>Price Details</h2>
 								<div className={css["rich-text-section__rich-text"]}>{RichTextToHTML({ document: this.props.blok.description })}</div>
 							</section>
-						</div>
-					</div>
-					{this.props.blok.additionalstuff.map((nestedBlok) => (
-							<StoryblokComponent blok={nestedBlok} key={nestedBlok._uid} />
-						))}
-				</main>
+					
 			</div>
 		);
 
